@@ -431,8 +431,8 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh - 110px);
-  background: url("../img/Background\ Laptop.jpg") top center;
+  height: calc(100vh - 50px);
+  background: url("../img/4Banner.png") top center;
   background-size: cover;
   position: relative;
 }

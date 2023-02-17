@@ -856,6 +856,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+  background: radial-gradient(384.78% 155.95% at 18.96% 123.89%, #4B4B4B 0%, #282424 37.2%, #212121 86.96%)
+}
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
@@ -1173,12 +1177,14 @@ section {
 
 .team .member li {
   list-style: none;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
 }
 
 .team .member span {
-  /* font-style: italic;
-  display: block;
-  font-size: 13px; */
   font-family: 'SVN-Gilroy';
   font-style: normal;
   font-weight: 500;
@@ -1186,11 +1192,21 @@ section {
   line-height: 17px;
 }
 
+.team .member h4,
+.team .member span {
+  text-transform: uppercase;
+}
+
 .team .member p {
   padding-top: 10px;
-  font-size: 14px;
+  font-size: 15px;
   font-style: italic;
   color: #aaaaaa;
+}
+
+.team .member p,
+.team .member li {
+  text-align: left;
 }
 
 .team .member .social {

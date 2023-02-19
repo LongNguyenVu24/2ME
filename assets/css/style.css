@@ -217,11 +217,15 @@ h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color:#7e5e5e;
 }
 
 #header .logo img {
-  max-height: 40px;
+  position: absolute;
+  height: 77px;
+  width: 74px;
+  left: 100px;
+  top: 20px;
 }
 
 
@@ -240,17 +244,22 @@ h6 {
 .navbar ul {
   margin: 0;
   padding: 0;
-  display: flex;
+  display: inline-block;
   list-style: none;
-  align-items: flex-end;
+  align-items: center;
+  
 }
 
 .navbar li {
+  display: inline-block;
   position: relative;
+  line-height: 24px;
+  font: normal 600 24px 'Poppins';
+  color: #fff;
 }
 
-.navbar>ul>li {
-  margin-left: 5px;
+.navbar>ul {
+  margin-left: 350px;
 }
 
 .navbar a,
@@ -259,8 +268,8 @@ h6 {
   align-items: center;
   justify-content: center;
   padding: 25px 15px 24px 15px;
-  font-size: 14px;
-  color: #fff;
+  font-size: 24px;
+  color: #040404;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -276,7 +285,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  background: #cc1616;
+  background: #dea4046e;
 }
 
 .navbar .dropdown ul {
@@ -290,7 +299,6 @@ h6 {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
 
@@ -457,15 +465,15 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh - 50px);
+  height: calc(100vh - 30px);
   background: url("../img/4Banner.png") top center;
   background-size: cover;
-  position: relative;
+  position: position;
+  top: 111px;
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -475,17 +483,27 @@ h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
+  font-size: 64px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 65px;
   text-transform: uppercase;
-  color: #fff;
+  background: linear-gradient(90deg, #FFCC6F 7.97%, #FFFBCA 32.98%, #EDBF6A 74.98%, #FFFBCA 86.98%, #EDBF6A 96.98%, #EDBF6A 107.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+  background-clip: text;
+  font-family: 'SVN-Gilroy';
 }
 
 #hero h2 {
-  color: #eee;
+  color:inherit;
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 40px;
+  line-height: 65px;
+  background: linear-gradient(90deg, #FFCC6F 7.97%, #FFFBCA 32.98%, #EDBF6A 74.98%, #FFFBCA 86.98%, #EDBF6A 96.98%, #EDBF6A 107.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+  background-clip: text;
+  font-family: 'SVN-Gilroy';
 }
 
 #hero .btn-get-started {
@@ -612,6 +630,10 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about .container{
+  display:flexbox;
+  flex-flow: row wrap;
+}
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;

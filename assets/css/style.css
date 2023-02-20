@@ -217,11 +217,15 @@ h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color:#7e5e5e;
 }
 
 #header .logo img {
-  max-height: 40px;
+  position: absolute;
+  height: 77px;
+  width: 74px;
+  left: 100px;
+  top: 20px;
 }
 
 
@@ -241,7 +245,7 @@ h6 {
 .navbar ul {
   margin: 0;
   padding: 0;
-  display: flex;
+  display: inline-block;
   list-style: none;
   align-items: center;
 }
@@ -250,6 +254,10 @@ h6 {
   position: relative;
   transform: scale(1.0);
   transition: all 0.3s ease-in-out 0.2s;
+  display: inline-block;
+  line-height: 24px;
+  font: normal 600 24px 'Poppins';
+  color: #fff;
 }
 
 .navbar a:hover {
@@ -458,10 +466,11 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh - 50px);
+  height: calc(100vh - 30px);
   background: url("../img/4Banner.png") top center;
   background-size: cover;
-  position: relative;
+  position: position;
+  top: 111px;
 }
 
 #hero:before {

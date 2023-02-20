@@ -466,8 +466,10 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh - 30px);
-  background: url("../img/4Banner.png") top center;
+  height: calc(100vh - 50px);
+  background-image:url("../img/Rectangle\ 4\ 1r.png") ,url("../img/4Banner.png") ;
+  background-position: bottom,top center;
+  background-repeat: no-repeat,repeat;
   background-size: cover;
   position: position;
   top: 111px;
@@ -485,17 +487,27 @@ h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
+  font-size: 64px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 65px;
   text-transform: uppercase;
-  color: #fff;
+  background: linear-gradient(90deg, #FFCC6F 7.97%, #FFFBCA 32.98%, #EDBF6A 74.98%, #FFFBCA 86.98%, #EDBF6A 96.98%, #EDBF6A 107.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+  background-clip: text;
+  font-family: 'SVN-Gilroy';
 }
 
 #hero h2 {
-  color: #eee;
+  color:inherit;
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 40px;
+  line-height: 65px;
+  background: linear-gradient(90deg, #FFCC6F 7.97%, #FFFBCA 32.98%, #EDBF6A 74.98%, #FFFBCA 86.98%, #EDBF6A 96.98%, #EDBF6A 107.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+  background-clip: text;
+  font-family: 'SVN-Gilroy';
 }
 
 #hero .btn-get-started {

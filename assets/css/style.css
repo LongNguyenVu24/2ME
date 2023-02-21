@@ -803,9 +803,16 @@ section {
   text-align: center;
 }
 
+.clients .slide {
+  width: 1300px;
+  height: 700px;
+  padding: 40px 50px;
+}
+
 .clients img {
-  width: 50%;
-  filter: grayscale(100);
+  width: 120.17px;
+  height: 120.17px;
+  /* filter: grayscale(100); */
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
@@ -814,6 +821,8 @@ section {
 .clients img:hover {
   filter: none;
   transform: scale(1.2);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px;
 }
 
 @media (max-width: 768px) {

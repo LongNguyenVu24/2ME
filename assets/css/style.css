@@ -960,6 +960,16 @@ section {
   background: radial-gradient(384.78% 155.95% at 18.96% 123.89%, #4B4B4B 0%, #282424 37.2%, #212121 86.96%)
 }
 
+.portfolio .portfolio-container .portfolio-item {
+  padding: 20px;
+}
+
+.portfolio .portfolio-container img {
+  border-radius: 5px;
+  margin: 15px 15px 15px 15px;
+  border: 0.784331px solid #FBF1CB;
+}
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
@@ -991,20 +1001,17 @@ section {
   margin-right: 0;
 }
 
-.portfolio .portfolio-item {
-  margin-bottom: 30px;
-}
-
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
-  position: absolute;
-  left: 30px;
-  right: 30px;
+  position: relative;
+  left: 15px;
+  top: -95px;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
   background: rgba(255, 255, 255, 0.9);
   padding: 15px;
+  border-radius: 0 0 5px 5px;
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {

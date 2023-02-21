@@ -256,7 +256,6 @@ h6 {
   transition: all 0.3s ease-in-out 0.2s;
   display: inline-block;
   line-height: 24px;
-  font: normal 600 24px 'Poppins';
   color: #fff;
 }
 
@@ -275,9 +274,6 @@ h6 {
   font-weight: 600;
   line-height: 24px;
   font-size: 16px;
-}
-
-.navbar a{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -285,6 +281,7 @@ h6 {
   white-space: nowrap;
   transition: 0.3s;
   color: #040404;
+  text-decoration: unset;
 }
 
 
@@ -496,6 +493,7 @@ h6 {
   -webkit-text-fill-color:transparent;
   background-clip: text;
   font-family: 'SVN-Gilroy';
+  padding: 12px 0px;
 }
 
 #hero h2 {
@@ -810,8 +808,8 @@ section {
 }
 
 .clients img {
-  width: 120.17px;
-  height: 120.17px;
+  width: 120px;
+  height: 120px;
   /* filter: grayscale(100); */
   transition: all 0.4s ease-in-out;
   display: inline-block;
@@ -1481,7 +1479,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #e82d2d;
+  transform: scale(1.2);
 }
 
 @-webkit-keyframes animate-loading {

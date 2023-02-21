@@ -820,9 +820,7 @@ section {
 
 .clients img:hover {
   filter: none;
-  transform: scale(1.2);
-  border-radius: 5px;
-  box-shadow: 2px 2px 2px 2px;
+  transform: scale(1.5);
 }
 
 @media (max-width: 768px) {

@@ -649,6 +649,12 @@ section {
   padding: 25px 10px;
 }
 
+.about{
+  background-image:url("../img/Star\ 1.png") ;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
 .about .row {
   color: #fff
 }
@@ -1311,12 +1317,13 @@ section {
 }
 
 .team .member p,
-.team .member li {
+.team .member li{
   text-align: left;
 }
 
-.team .member .social {
+.team .social {
   margin-top: 15px;
+  text-align: left;
 }
 
 .team .member .social a {

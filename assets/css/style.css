@@ -211,7 +211,6 @@ h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 2px;
-  text-transform: uppercase;
   
 }
 
@@ -222,7 +221,6 @@ h6 {
 #header .logo img {
   position: absolute;
   height: 77px;
-  width: 74px;
   left: 100px;
   top: 20px;
 }
@@ -500,6 +498,7 @@ h6 {
   margin-bottom: 30px;
   font-size: 40px;
   line-height: 65px;
+  text-transform: uppercase;
   background: linear-gradient(90deg, #FFCC6F 7.97%, #FFFBCA 32.98%, #EDBF6A 74.98%, #FFFBCA 86.98%, #EDBF6A 96.98%, #EDBF6A 107.98%);
   -webkit-background-clip: text;
   -webkit-text-fill-color:transparent;

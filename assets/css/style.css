@@ -56,7 +56,6 @@ h6 {
 
 :root {
   --gold-gradient-color: linear-gradient(to bottom right,#FFCC6F, #FFFBCA, #EDBF6A,#FFFBCA, #EDBF6A, #EDBF6A);
-
 }
 /*--------------------------------------------------------------
 # Back to top button
@@ -562,7 +561,6 @@ section {
 }
 
 .section-title {
-  /* text-align: center; */
   padding: 30px 0;
   position: relative;
 }
@@ -592,7 +590,6 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  /* color: #191919; */
   background: var(--gold-gradient-color);
   -webkit-background-clip: text;
   background-clip: text;
@@ -637,6 +634,7 @@ section {
 .about {
   background: radial-gradient(384.78% 155.95% at 18.96% 123.89%, #4B4B4B 0%, #282424 53.03%, #212121 100%);
 }
+
 .about h3 {
   font-weight: 600;
   font-size: 26px;
@@ -646,8 +644,6 @@ section {
   -webkit-text-fill-color: transparent;
   padding: 25px 10px;
 }
-
-
 
 .about .row {
   color: #fff
@@ -677,44 +673,25 @@ section {
   padding: 60px 0;
 }
 
-.about .img-about-me {
-  position: absolute;
-  width: 590px;
-  height: 295px; 
-  left: 55%;
-  top: 20%;
-  border: 0.7px solid #F4D78F;
-  box-shadow: inset 1px 6px 9px rgba(0, 0, 0, 0.25);
-  filter: drop-shadow(6px 6px 10px rgba(0, 0, 0, 0.45));
-  border-radius: 23px;
-}
-
 .about .content-mission {
   padding-top: 125px;
 }
 
-.mission-headding{
+.mission-headding {
   box-sizing: border-box;
 
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   padding: 12px 47px;
   gap: 10px;
 
-  width: 185px;
+  width: 220px;
   height: 48px;
 
   background: #292929;
   border: 0.444609px solid #FDCF72;
   border-radius: 12.8px;
-
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 23px;
-  line-height: 24px;
-  text-align: center;
 
   background: linear-gradient(90deg, #FFCC6F 7.97%, #FFFBCA 32.98%, #EDBF6A 74.98%, #FFFBCA 86.98%, #EDBF6A 96.98%, #EDBF6A 107.98%);
   -webkit-background-clip: text;
@@ -722,6 +699,16 @@ section {
   -text-fill-color: transparent;
   background-clip: text;
   margin: 30px 0px 25px 0px;
+}
+
+.mission-headding p {
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 24px;
+  text-align: center;
+  width: 100%;
 }
 /*--------------------------------------------------------------
 # Why Us
@@ -774,14 +761,11 @@ section {
 
 .why-us .box li {
   color: #fff;
-  list-style: none;
 }
 
 .why-us .box:hover {
-  /* background: #fd7e14; */
   border: gold solid 3px;
-  padding: 30px 30px 70px 30px;
-  /* box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18); */
+  padding: 30px 30px 70px 30px; 
 }
 
 .why-us .box:hover span,

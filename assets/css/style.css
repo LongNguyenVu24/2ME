@@ -554,10 +554,12 @@ section {
 .about .content-about-me {
   position: relative;
   padding: 60px 0;
+  height: 100vh;
 }
 
 .about .content-mission {
   padding-top: 125px;
+  padding-bottom: 125px;
 }
 
 .mission-headding {

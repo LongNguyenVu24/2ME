@@ -149,7 +149,8 @@ h6 {
 --------------------------------------------------------------*/
 #header {
   /* background-color:transparent; */
-  background: linear-gradient(gold 40%, yellow);
+  /* background: linear-gradient(gold 40%, yellow); */
+  background: #000000;
   position: fixed;
   transition: all 0.5s;
   z-index: 997;
@@ -216,7 +217,7 @@ h6 {
   padding: 25px 15px 24px 15px;
   white-space: nowrap;
   transition: 0.3s;
-  color: #040404;
+  color: #EDBF6A;
   text-decoration: unset;
 }
 
@@ -517,6 +518,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   background: var(--background-color);
+  background-image: url("../img/background_2.png");
 }
 
 .about h3 {

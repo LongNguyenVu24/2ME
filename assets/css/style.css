@@ -44,16 +44,53 @@ h6 {
   right: 0;
   left: 170px;
   top: 25px;
-  background: linear-gradient(270deg, #212121 0%, #313131 58.33%, #4B4B4B 100%);
+  background: linear-gradient(270deg, #212121 0%, #313131 58.33%, #4b4b4b 100%);
 }
 
 :root {
-  --gold-gradient-color: linear-gradient(to bottom right,#FFCC6F, #FFFBCA, #EDBF6A,#FFFBCA, #EDBF6A, #EDBF6A);
-  --golden-button-color: linear-gradient(89.91deg, #FFCC6F -24.91%, #FFFBCA 12.86%, #EDBF6A 67.33%, #FFFBCA 94.45%, #EDBF6A 120.67%);
-  --golden-headding-color: linear-gradient(90deg, #FFCC6F 7.97%, #FFFBCA 32.98%, #EDBF6A 74.98%, #FFFBCA 86.98%, #EDBF6A 96.98%, #EDBF6A 107.98%);
-  --black-headding-color: linear-gradient(270deg, #212121 0%, #313131 58.33%, #4B4B4B 100%);
-  --background-color: radial-gradient(384.78% 155.95% at 18.96% 123.89%, #4B4B4B 0%, #282424 53.03%, #212121 100%);
-  --services-box-color: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+  --gold-gradient-color: linear-gradient(
+    to bottom right,
+    #ffcc6f,
+    #fffbca,
+    #edbf6a,
+    #fffbca,
+    #edbf6a,
+    #edbf6a
+  );
+  --golden-button-color: linear-gradient(
+    89.91deg,
+    #ffcc6f -24.91%,
+    #fffbca 12.86%,
+    #edbf6a 67.33%,
+    #fffbca 94.45%,
+    #edbf6a 120.67%
+  );
+  --golden-headding-color: linear-gradient(
+    90deg,
+    #ffcc6f 7.97%,
+    #fffbca 32.98%,
+    #edbf6a 74.98%,
+    #fffbca 86.98%,
+    #edbf6a 96.98%,
+    #edbf6a 107.98%
+  );
+  --black-headding-color: linear-gradient(
+    270deg,
+    #212121 0%,
+    #313131 58.33%,
+    #4b4b4b 100%
+  );
+  --background-color: radial-gradient(
+    384.78% 155.95% at 18.96% 123.89%,
+    #4b4b4b 0%,
+    #282424 53.03%,
+    #212121 100%
+  );
+  --services-box-color: radial-gradient(
+    100% 100% at 0% 0%,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 /*--------------------------------------------------------------
 # Back to top button
@@ -164,11 +201,10 @@ h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 2px;
-  
 }
 
 #header .logo a {
-  color:#7e5e5e;
+  color: #7e5e5e;
 }
 
 #header .logo img {
@@ -177,7 +213,6 @@ h6 {
   top: 0;
   left: 100px;
 }
-
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -217,11 +252,11 @@ h6 {
   padding: 25px 15px 24px 15px;
   white-space: nowrap;
   transition: 0.3s;
-  color: #EDBF6A;
+  color: #edbf6a;
   text-decoration: unset;
 }
 
-.navbar>ul>li {
+.navbar > ul > li {
   margin-left: 5px;
 }
 
@@ -326,18 +361,18 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #cc1616;
   background: none;
 }
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   color: #cc1616;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -347,9 +382,10 @@ h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 50px);
-  background-image:url("../img/Rectangle\ 4\ 1r.png") ,url("../img/4Banner.png") ;
-  background-position: bottom,top center;
-  background-repeat: no-repeat,repeat;
+  background-image: url("../img/Rectangle\ 4\ 1r.png"),
+    url("../img/4Banner.png");
+  background-position: bottom, top center;
+  background-repeat: no-repeat, repeat;
   background-size: cover;
   position: position;
   top: 111px;
@@ -373,23 +409,23 @@ h6 {
   text-transform: uppercase;
   background: var(--golden-headding-color);
   -webkit-background-clip: text;
-  -webkit-text-fill-color:transparent;
+  -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-family: 'SVN-Gilroy';
+  font-family: "SVN-Gilroy";
   padding: 12px 0px;
 }
 
 #hero h2 {
-  color:inherit;
+  color: inherit;
   margin-bottom: 30px;
   font-size: 40px;
   line-height: 65px;
   text-transform: uppercase;
   background: var(--golden-headding-color);
   -webkit-background-clip: text;
-  -webkit-text-fill-color:transparent;
+  -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-family: 'SVN-Gilroy';
+  font-family: "SVN-Gilroy";
 }
 
 #hero .btn-get-started {
@@ -518,7 +554,6 @@ section {
 --------------------------------------------------------------*/
 .about {
   background: var(--background-color);
-  background-image: url("../img/background_2.png");
 }
 
 .about h3 {
@@ -532,7 +567,7 @@ section {
 }
 
 .about .row {
-  color: #fff
+  color: #fff;
 }
 
 .about .content ul {
@@ -559,6 +594,21 @@ section {
   padding: 60px 0;
 }
 
+.about-me-1 {
+  position: relative;
+  padding: 60px 0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.about-img {
+  height: auto;
+  width: auto;
+  max-width: 3000px;
+  max-height: 300px;
+  padding-left: 35px;
+}
+
 .about .content-mission {
   padding-top: 125px;
   padding-bottom: 125px;
@@ -581,7 +631,7 @@ section {
   height: 48px;
 
   background: #292929;
-  border: 0.444609px solid #FDCF72;
+  border: 0.444609px solid #fdcf72;
   border-radius: 12.8px;
 
   background: var(--golden-headding-color);
@@ -593,7 +643,7 @@ section {
 }
 
 .mission-headding p {
-  font-family: 'SVN-Gilroy';
+  font-family: "SVN-Gilroy";
   font-style: normal;
   font-weight: 400;
   font-size: 23px;
@@ -615,7 +665,7 @@ section {
 }
 
 .why-us .outside-box {
-  padding: 20px
+  padding: 20px;
 }
 
 .why-us .box {
@@ -632,7 +682,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #FFF;
+  color: #fff;
 }
 
 .why-us .box h4 {
@@ -640,7 +690,7 @@ section {
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
-  color: #FFF;
+  color: #fff;
 }
 
 .why-us .box p {
@@ -656,7 +706,7 @@ section {
 
 .why-us .box:hover {
   border: gold solid 3px;
-  padding: 30px 30px 70px 30px; 
+  padding: 30px 30px 70px 30px;
 }
 
 .why-us .box:hover span,
@@ -706,7 +756,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .service-heading{
+.services .service-heading {
   background: var(--golden-headding-color);
   -webkit-background-clip: text;
   background-clip: text;
@@ -727,7 +777,7 @@ section {
 .portfolio .portfolio-container img {
   border-radius: 5px;
   margin: 15px 15px 15px 15px;
-  border: 0.784331px solid #FBF1CB;
+  border: 0.784331px solid #fbf1cb;
 }
 
 .portfolio #portfolio-flters {
@@ -847,7 +897,10 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -855,7 +908,10 @@ section {
   border: 1px solid #cc1616;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #cc1616;
 }
 
@@ -878,7 +934,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -951,7 +1007,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -988,7 +1044,7 @@ section {
 .contact .php-email-form textarea {
   border-radius: 10px;
   box-shadow: none;
-  background: #C8C8C8;
+  background: #c8c8c8;
   font-size: 14px;
 }
 
@@ -1010,13 +1066,13 @@ section {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: var(--golden-button-color);
   border-radius: 10px;
   padding: 10px 24px;
 
   color: #080808;
-  font-family: 'SVN-Gilroy';
+  font-family: "SVN-Gilroy";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -1025,7 +1081,7 @@ section {
   transition: 0.4s;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   transform: scale(1.2);
   color: #fff;
 }
